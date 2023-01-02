@@ -1,0 +1,9 @@
+{
+    "projects": [
+        {
+            "testMatch": [
+                "<rootDir>/src/specs/**/*.spec.ts"
+            ]
+        }
+    ]
+}

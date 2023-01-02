@@ -1,0 +1,22 @@
+# This compose file is meant to spin up a copy of all supported database vendors + Redis and S3 (Minio).
+#
+# ONLY FOR DEBUGGING. THIS IS NOT INTENDED FOR PRODUCTION USE.
+#
+# Ports:
+#   MS SQL:          5103
+#
+# Credentials:
+#   MS SQL:
+#     User:          sa
+#     Password:      Test@123
+
+version: '3.1'
+
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Test@123
+    ports:
+      - 5103:1433

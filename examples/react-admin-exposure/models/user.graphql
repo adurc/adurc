@@ -1,0 +1,9 @@
+type User @mssql_entity(schema: "usr") {
+  id: ID! @ra_pk @mssql_column(primary: true, identity: true)
+  name: String!
+  firstName: String
+  lastName: String
+  email: String!
+  createdDate: Date!
+  password: String!
+}

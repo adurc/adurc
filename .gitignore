@@ -1,0 +1,7 @@
+dist
+spec
+node_modules
+.env
+graphqls
+.clinic
+coverage

@@ -1,0 +1,38 @@
+{
+  "name": "adurc",
+  "version": "1.0.0",
+  "description": "Adurc is an open source framework for build an ORM, supporting multiples data sources and service layers.",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.5.0"
+  },
+  "scripts": {
+    "dev": "pnpm -r --stream --parallel dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adurc/core.git"
+  },
+  "keywords": [
+    "adurc",
+    "orm",
+    "source",
+    "service",
+    "baas",
+    "api",
+    "graphql",
+    "rest",
+    "backend",
+    "db"
+  ],
+  "author": "bernatvadell",
+  "license": "ISC",
+  "workspaces": [
+    "./packages/*",
+    "./docs",
+    "./examples/*"
+  ]
+}

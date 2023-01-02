@@ -1,0 +1,24 @@
+{
+  "name": "react-admin-exposure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adurc/core": "workspace:^0.1.14",
+    "@adurc/driver-mssql": "workspace:^0.1.14",
+    "@adurc/exposure-react-admin": "workspace:^0.1.14",
+    "@adurc/introspector-graphql": "workspace:^0.1.7",
+    "apollo-server-express": "^2.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.1.3"
+  }
+}
